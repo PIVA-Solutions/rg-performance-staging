@@ -260,7 +260,7 @@ ul, ol { padding: 0; list-style: none; }
       linear-gradient(to bottom, rgb(10 10 11 / 0.5) 0%, rgb(10 10 11 / 0) 18%);
   }
   .hero__content { max-width: calc(30rem + 2 * var(--gutter)); margin-inline: max(0px, calc((100% - var(--max)) / 2 - var(--gutter))) auto; }
-  .hero__title { font-size: clamp(3.4rem, 5.3vw, 5.1rem); }
+  .hero__title { font-size: clamp(3.4rem, 5.3vw, 4.5rem); }
   .hero__lead, .hero__support { max-width: 28rem; }
 }
 
