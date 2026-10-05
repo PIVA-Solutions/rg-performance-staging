@@ -878,13 +878,14 @@ ul, ol { padding: 0; list-style: none; }
   font-family: var(--f-display);
   font-stretch: 75%;
   font-weight: 700;
-  font-size: clamp(4.25rem, 16vw, 7.5rem);
+  
+  font-size: clamp(3.5rem, 12vw, 6rem);
   line-height: 1;
-  color: var(--c-accent);
+  color: var(--c-text);
   white-space: nowrap;
 }
 
-.offer__por { display: block; margin-bottom: 0.1em; font-size: 0.24em; line-height: 1.2; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-text); }
+.offer__por { display: block; margin-bottom: 0.1em; font-size: 0.28em; line-height: 1.2; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-text); }
 .offer__currency { font-size: 0.4em; vertical-align: 0.9em; margin-right: 0.08em; }
 .offer__cents { font-size: 0.4em; vertical-align: 0.9em; }
 .offer__installments {
@@ -897,7 +898,7 @@ ul, ol { padding: 0; list-style: none; }
   color: var(--c-text);
 }
 
-.offer__single { font-size: clamp(2.4rem, 10vw, 3.5rem); font-weight: 700; line-height: 1.1; color: var(--c-accent); white-space: nowrap; }
+.offer__single { display: inline-block; font-size: clamp(4.25rem, 16vw, 7.5rem); font-weight: 700; line-height: 1; letter-spacing: 0; color: var(--c-accent); white-space: nowrap; text-shadow: 0 0 28px rgb(220 171 60 / 0.28); }
 .offer__terms { margin-top: 0.4rem; color: var(--c-muted); }
 .offer__status:not(:empty) {
   margin-top: 0.9rem;
