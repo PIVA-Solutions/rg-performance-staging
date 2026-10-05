@@ -849,6 +849,7 @@ ul, ol { padding: 0; list-style: none; }
   padding: 1.75rem 1rem;
   text-align: center;
   border-block: 1px solid var(--c-line);
+  container-type: inline-size; 
 }
 .offer__condition {
   display: inline-block;
@@ -898,8 +899,20 @@ ul, ol { padding: 0; list-style: none; }
   color: var(--c-text);
 }
 
-.offer__single { display: inline-block; font-size: clamp(4.25rem, 16vw, 7.5rem); font-weight: 700; line-height: 1; letter-spacing: 0; color: var(--c-accent); white-space: nowrap; text-shadow: 0 0 28px rgb(220 171 60 / 0.28); }
-.offer__terms { margin-top: 0.4rem; color: var(--c-muted); }
+.offer__single {
+  display: block;
+  margin-top: 0.05em;
+  font-size: clamp(5.5rem, 26vw, 17rem);
+  font-size: min(58cqi, 17rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0;
+  color: var(--c-accent);
+  white-space: nowrap;
+  text-shadow: 0 0 36px rgb(220 171 60 / 0.3);
+}
+.offer__single .offer__currency,
+.offer__single .offer__cents { font-size: 0.3em; vertical-align: 1.5em; }
 .offer__status:not(:empty) {
   margin-top: 0.9rem;
   padding: 0.75rem 1rem;
