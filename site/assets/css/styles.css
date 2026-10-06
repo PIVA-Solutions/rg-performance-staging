@@ -1069,14 +1069,7 @@ ul, ol { padding: 0; list-style: none; }
   font-size: 1rem;
   color: var(--c-text);
 }
-.site-footer__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
-  margin-top: 1.1rem;
-}
-
-.pending-link { color: var(--c-muted); }
+.site-footer__company { margin-top: 0.6rem; }
 .site-footer__disclaimer { margin-top: 1.5rem; max-width: 46rem; line-height: 1.55; }
 .site-footer__mvp { margin-top: 1rem; font-size: 0.8125rem; color: var(--c-negative); }
 
