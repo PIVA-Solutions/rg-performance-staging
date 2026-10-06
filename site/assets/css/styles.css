@@ -915,15 +915,6 @@ ul, ol { padding: 0; list-style: none; }
 .offer__single .offer__cents { font-size: 0.3em; vertical-align: 1.5em; }
 
 .offer__cash { display: block; margin-top: 0.35rem; font-size: clamp(1.1rem, 4.5cqi, 1.6rem); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-text); }
-.offer__status:not(:empty) {
-  margin-top: 0.9rem;
-  padding: 0.75rem 1rem;
-  border: 1px dashed var(--c-muted);
-  border-radius: var(--radius);
-  font-size: 0.9375rem;
-  color: var(--c-text);
-  text-align: center;
-}
 .offer .microproof { margin-top: 1.25rem; }
 
 .guarantee { background: var(--c-surface); }

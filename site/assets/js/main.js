@@ -1,9 +1,3 @@
-document.querySelectorAll('[data-checkout-pending]').forEach((button) => {
-  const status = document.getElementById(button.getAttribute('aria-describedby'));
-  button.addEventListener('click', () => {
-    if (status) status.textContent = 'Checkout em configuração: disponível após a aprovação final da oferta.';
-  });
-});
 
 (() => {
   const section = document.querySelector('.career');
