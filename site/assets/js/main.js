@@ -247,7 +247,7 @@ const carousels = new Map();
 document.querySelectorAll('[data-carousel]').forEach((root) => carousels.set(root, new Carousel(root)));
 
 const CAREER = [
-  { club: 'Corinthians', period: '2005–2017', text: 'Comecei no Corinthians aos 5 anos e passei mais de 12 anos nas categorias de base do clube, encerrando esse ciclo com a conquista da Copa São Paulo de Futebol Júnior.' },
+  { club: 'Corinthians', period: '2005–2017', text: 'Comecei no Corinthians aos 5 anos e passei 14 anos nas categorias de base do clube, encerrando esse ciclo com a conquista da Copa São Paulo de Futebol Júnior.' },
   { club: 'Atlético-MG', period: '2017–2019', text: 'Depois da base, foi no Atlético-MG que fiz minha estreia como jogador profissional. Foram 2 anos no clube.' },
   { club: 'Joinville', period: '2019–2021', text: 'No Joinville, disputei a Série D do Brasileiro e somei mais 2 anos de experiência no futebol profissional.' },
   { club: 'Bahia', period: '2021', text: 'No Bahia, joguei Série A, Sul-Americana e Copa do Brasil, e fui campeão da Copa do Nordeste.' },
